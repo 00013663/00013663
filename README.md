@@ -12,3 +12,8 @@ The website consists of six pages, which are namely, index.html, menu.html, abou
 All the .html (index.html is a home page), consists of a root (used as “header” in css) main body (used as “intro”in index.html, section with a class “about” in about.html, section with a class “menu” in menu.html, section with a class “about” in about.html, section with a class “special” in special.html, section with a class “section” in shop.html and section with a class “contact” in contact.html ) and a footer(used as footer). 
 
 Only in the Contact section Java Script was used to make my page interactive. In all  other pages transition and transform (in some cases animation ) was used.
+
+Links:
+https://00013663.netlify.app/index.html
+GitHub:
+https://github.com/00013663/00013663.git
