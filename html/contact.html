@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>J'SCoffee</title>
+
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="header_logo">J'SCoffee</div>
+    
+        <nav class="nav">
+            <a class="#" href="../index.html">Home</a>
+            <a class="#" href="./menu.html">Menu</a>
+            <a class="#" href="./about.html">About</a>
+            <a class="#" href="./special.html">Special</a>
+            <a class="#" href="./shop.html">Shop</a>
+            <a class="#" href="./contact.html">Contact</a>
+    </nav>
+    </header>
+
+
+ <section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+        
+        <div class="contact_container">
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <input type="text" id="contact_name" placeholder="Your Name" required>
+                <input type="email" id="contact_email" placeholder="Email" required>
+                <input type="text" id="contact_phone" placeholder="Phone Number" required>
+                <textarea  id="message" rows="4" placeholder="How can we help you?"></textarea>
+                <button type="submit">Submit</button>
+            </form>    
+        </div>
+        
+</section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer_column">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="about.html">about us</a></li>
+                        <li><a href="shop.html">our services</a></li>
+                        <li><a href="../index.html">privacy policy</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer_column">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="../index.html">FAQ</a></li>
+                        <li><a href="contact.html">returns</a></li>
+                        <li><a href="shop.html">order status</a></li>
+                        <li><a href="shop.html">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer_column">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="menu.html">watch</a></li>
+                        <li><a href="menu.html">coffee types</a></li>
+                        <li><a href="menu.html">breakfast</a></li>
+                        <li><a href="menu.html">breakfast menu</a></li>
+                    </ul>
+                </div>
+                <div class="footer_column">
+                    <h4>follow us</h4>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
